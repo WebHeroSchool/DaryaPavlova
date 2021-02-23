@@ -6,7 +6,7 @@ body{
   width: 80%;
 }
 .title{
-  font-family: Roboto;
+  font-family: Roboto, arial, helvetica, sans-serif;
 }
 .header{
   display: flex;
