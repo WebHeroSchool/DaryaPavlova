@@ -43,7 +43,7 @@ body{
 }
 .menu__item{
   position: relative;
-  margin-right: 26px;
+  margin-right: 30px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color:#000;
   text-decoration: none;
@@ -72,16 +72,19 @@ body{
 }
 .main {
   padding:0 63% 200px 0;
-  background:top right no-repeat url(img/Main-img.svg);
+  background:no-repeat url(img/Main-img.svg);
   background-size: 770px;
+  background-position: 100% 800%;
  }
  .main__title {
   margin: 0 0 40px 0;
   font: bold 66px/87px pt_serif, arial, helvetica, sans-serif;
+  letter-spacing: 3px;
  }
  .main__subtitle {
   margin: 0 0 41px 0;
   font: 22px/26px Roboto, arial, helvetica, sans-serif;
+  width: 455px;
  }
   .main__title-text_highlight {
   background: #ECF3FF;
@@ -91,10 +94,11 @@ body{
    font: 18px/21px Roboto, arial, helvetica, sans-serif;
    color: #fff;
    background: #0056EC;
-   padding: 14px 16px;
+   padding: 18px 16px;
    text-decoration: none;
    border-radius: 4px;
    transition: opacity .5s;
+   width: 245px;
   }
   .main__button:hover{
     opacity: .5;
