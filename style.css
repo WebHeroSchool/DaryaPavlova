@@ -11,12 +11,12 @@ body{
 .header{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 200px;
+  margin-bottom: 130px;
 }
 .logo{
   padding: 40px 0;
   padding-left: 44px;
-  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+  font: bold 25px/31px pt_serif, arial, helvetica, sans-serif;
   position: relative;
   letter-spacing: .8px;
 }
@@ -72,10 +72,10 @@ body{
   width: 100%;
 }
 .main {
-  padding:0 63% 200px 0;
+  padding:72px 63% 200px 2px;
   background:no-repeat url(img/Main-img.svg);
   background-size: 770px;
-  background-position: 100% 900%;
+  background-position: 99% 0%;
  }
  .main__title {
   margin: 0 0 40px 0;
@@ -95,11 +95,12 @@ body{
    font: 18px/21px Roboto, arial, helvetica, sans-serif;
    color: #fff;
    background: #0056EC;
-   padding: 18px 16px;
+   padding: 20px;
    text-decoration: none;
    border-radius: 4px;
    transition: opacity .5s;
-   width: 245px;
+   width: 235px;
+   letter-spacing: .2px;
   }
   .main__button:hover{
     opacity: .5;
