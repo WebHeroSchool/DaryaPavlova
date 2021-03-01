@@ -18,6 +18,7 @@ body{
   padding-left: 44px;
   font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
   position: relative;
+  letter-spacing: .8px;
 }
 .logo__circle {
  width: 28px;
@@ -43,7 +44,7 @@ body{
 }
 .menu__item{
   position: relative;
-  margin-right: 30px;
+  margin-right: 28px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color:#000;
   text-decoration: none;
@@ -53,7 +54,7 @@ body{
   opacity: .5;
 }
 .menu__item:last-child{
-  margin-right: 0;
+  margin-right: 7px;
 }
 .menu__item:after{
   position: absolute;
@@ -74,7 +75,7 @@ body{
   padding:0 63% 200px 0;
   background:no-repeat url(img/Main-img.svg);
   background-size: 770px;
-  background-position: 100% 800%;
+  background-position: 100% 900%;
  }
  .main__title {
   margin: 0 0 40px 0;
