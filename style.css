@@ -108,12 +108,15 @@ body{
     opacity: .5;
   }
 
+  @media (max-width:1750px){
+    .header {
+      margin-bottom: 0px;
+      }
+  }
+
   @media (max-width: 1366px){
     .wrapper{
       width: 68%;
-    }
-    .header{
-      margin-bottom: 86px;
     }
     .main {
       padding:15px 0  55px 0;
@@ -136,9 +139,6 @@ body{
     .header {
       margin-bottom: 85px;
       }
-    .menu{
-      padding-right: 27px;
-    }
     .menu__item{
       font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
       margin-right: 28px;  
@@ -209,8 +209,8 @@ body{
     }
     .main {
     text-align: center;
-    padding: 240px 0 0;
-    background-size: 85%;
+    padding: 120px 0 0;
+    background-size: 55%;
     background-position: 50% 0%;
     }
     .main__title {
@@ -260,6 +260,10 @@ body{
     .wrapper{
       padding: 0;
     }  
+    .main{
+      background-size: 85%;
+      padding-top:240px ;
+    }
     .main__title {
     margin:0 auto 32px auto;
     width: 250px;
