@@ -106,6 +106,12 @@ body{
   }
   .main__button:hover{
     opacity: .5;
+    font-size: 30px;
+    line-height: 30px;
+    width:300px;
+    height:80px;
+    text-align:center;
+    transition: 2s ease-in-out;
   }
 
   @media (max-width:1750px){
